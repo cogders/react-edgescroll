@@ -4,35 +4,6 @@ import PropTypes from "prop-types";
 export const UPWARDS = "upwards";
 export const DOWNWARDS = "downwards";
 
-// TODO: make component API so it take
-// - scrollContainer
-
-
-// activeStyle is how the component looks like when it's active 
-
-// inactiveStyle is how the component looks like when it's inactive
-
-// scrollContainer ?
-
-// activeTreshold - how much time is passed before component start to be active
-
-// <EdgeScroll activeTreshold={600} a
-
-/*
-  <EdgeScroll
-    activeStyle={{
-      height: 50
-    }}
-    inactiveStyle={{
-      height: 0
-    }}
-    delayBeforeActive={600}
-    scrollContainer={window}
-  />
-*/
-
-
-
 function useToggle() {
   const [on, setOnState] = useState(false);
 
