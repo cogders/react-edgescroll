@@ -175,8 +175,8 @@ function EdgeScroll(props) {
 EdgeScroll.propTypes = {
   scrollDelay: PropTypes.number,
   direction: PropTypes.string,
-  activeStyle: PropTypes.object,
-  inactiveStyle: PropTypes.object,
+  activeStyle: PropTypes.object.isRequired,
+  inactiveStyle: PropTypes.object.isRequired,
   scrollContainer: PropTypes.object,
   delayBeforeActive: PropTypes.number
 };
@@ -184,8 +184,6 @@ EdgeScroll.propTypes = {
 EdgeScroll.defaultProps = {
   direction: UPWARDS,
   scrollDelay: 1500, // delay between scrolls
-  activeStyle: {},
-  inactiveStyle: {},
   scrollContainer: window,
   delayBeforeActive: 600  // used to wait xxx miliseconds before becoming active
 };
