@@ -15,27 +15,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var UPWARDS = "upwards";
 exports.UPWARDS = UPWARDS;
-var DOWNWARDS = "downwards"; // TODO: make component API so it take
-// - scrollContainer
-// activeStyle is how the component looks like when it's active 
-// inactiveStyle is how the component looks like when it's inactive
-// scrollContainer ?
-// activeTreshold - how much time is passed before component start to be active
-// <EdgeScroll activeTreshold={600} a
-
-/*
-  <EdgeScroll
-    activeStyle={{
-      height: 50
-    }}
-    inactiveStyle={{
-      height: 0
-    }}
-    delayBeforeActive={600}
-    scrollContainer={window}
-  />
-*/
-
+var DOWNWARDS = "downwards";
 exports.DOWNWARDS = DOWNWARDS;
 
 function useToggle() {
