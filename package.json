@@ -1,7 +1,7 @@
 {
   "name": "edgescroll",
   "version": "0.8.0",
-  "description": "You have fixed header or footer and problems with autoscrolling while dragging or sorting, give this a shot then.",
+  "description": "Do you have fixed header or footer and problems with autoscrolling while dragging or sorting? Give this a shot then.",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
