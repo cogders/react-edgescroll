@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 /* How to import Component */
 // import EdgeScroll, { DOWNWARDS, UPWARDS } from '../src/components/EdgeScroll/EdgeScroll'
-import EdgeScroll, { DOWNWARDS, UPWARDS } from  './lib';
+import EdgeScroll, { DOWNWARDS, UPWARDS } from  '@cogders/react-edgescroll';
 
 class App extends Component {
 
