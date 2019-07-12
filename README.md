@@ -1,6 +1,6 @@
-# EdgeScroll
+# react-edgescroll
 
-`npm install edgescroll --save`
+`npm install @cogders/react-edgescroll --save`
 
 This component is built to solve problems related with autoscroll when the item is dragged. When you have an element that has a fixed position (i.e fixed top header) and it doesn't allow autoscroll to happen just put the `<EdgeScroll>` into the component that blocks autoscroll and the problem will be gone.
 

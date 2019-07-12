@@ -1,5 +1,5 @@
 {
-  "name": "react-edgescroll",
+  "name": "@cogders/react-edgescroll",
   "version": "0.8.1",
   "description": "Do you have fixed header or footer and problems with autoscrolling while dragging or sorting? Give this a shot then.",
   "main": "dist/index.js",
