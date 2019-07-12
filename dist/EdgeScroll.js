@@ -201,6 +201,7 @@ function EdgeScroll(props) {
       inactiveStyle = props.inactiveStyle;
   var mergedStyle = isDragging ? activeStyle : inactiveStyle;
   return _react.default.createElement("div", {
+    "data-testid": "edgescroll-component",
     ref: dragEnterRef,
     style: mergedStyle
   });
@@ -210,8 +211,6 @@ EdgeScroll.defaultProps = {
   direction: UPWARDS,
   scrollDelay: 1500,
   // delay between scrolls
-  activeStyle: {},
-  inactiveStyle: {},
   scrollContainer: window,
   delayBeforeActive: 600 // used to wait xxx miliseconds before becoming active
 
