@@ -169,7 +169,13 @@ function EdgeScroll(props) {
 
   const mergedStyle = isDragging ? activeStyle : inactiveStyle;
 
-  return <div ref={dragEnterRef} style={mergedStyle} />;
+  return (
+    <div
+      data-testid="edgescroll-component"
+      ref={dragEnterRef}
+      style={mergedStyle}
+    />
+  )
 }
 
 EdgeScroll.propTypes = {
