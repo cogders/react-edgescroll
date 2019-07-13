@@ -39,6 +39,7 @@ import EdgeScroll, { DOWNWARDS, UPWARDS } from  '@cogders/react-edgescroll';
         bottom: 0,
         left: 0,
         right: 0,
+        height: 0,
         position: "absolute"
       }}
       activeStyle={{
