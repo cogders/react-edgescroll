@@ -7,6 +7,8 @@ import Home from './components/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+// TODO: make create react-app here (./example folder)
+
 /* How to import Component */
 // import EdgeScroll, { DOWNWARDS, UPWARDS } from '../src/components/EdgeScroll/EdgeScroll'
 import EdgeScroll, { DOWNWARDS, UPWARDS } from  '@cogders/react-edgescroll';
