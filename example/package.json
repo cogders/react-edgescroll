@@ -23,8 +23,22 @@
     "react": "^16.8.6"
   },
   "dependencies": {
+    "@cogders/react-edgescroll": "^0.8.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "array-move": "^2.1.0",
+    "lodash": "^4.17.14",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dnd": "^7.6.0",
+    "react-dnd-html5-backend": "^7.6.0",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-sortable-hoc": "^1.9.1",
+    "react-syntax-highlighter": "^10.3.0",
+    "react-tooltip": "^3.10.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
