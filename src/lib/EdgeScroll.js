@@ -107,15 +107,14 @@ function EdgeScroll(props) {
     if (!dragEnterRef || !dragEnterRef.current) return;
 
     const dragEnterEl = dragEnterRef.current;
-    const { scrollContainer } = props;
 
-    scrollContainer.addEventListener("mousedown", handleMouseDown);
-    scrollContainer.addEventListener("mouseup", handleMouseUp);
-    scrollContainer.addEventListener("dragstart", handleIsDragging);
-    scrollContainer.addEventListener("dragend", handleDragEnd);
-    scrollContainer.addEventListener("focus", handleReset);
-    scrollContainer.addEventListener("blur", handleReset);
-    scrollContainer.addEventListener("contextmenu", handleReset);
+    window.addEventListener("mousedown", handleMouseDown);
+    window.addEventListener("mouseup", handleMouseUp);
+    window.addEventListener("dragstart", handleIsDragging);
+    window.addEventListener("dragend", handleDragEnd);
+    window.addEventListener("focus", handleReset);
+    window.addEventListener("blur", handleReset);
+    window.addEventListener("contextmenu", handleReset);
 
     dragEnterEl.addEventListener("dragenter", handleDragEnter);
     dragEnterEl.addEventListener("dragleave", handleDragLeave);
@@ -123,13 +122,13 @@ function EdgeScroll(props) {
     dragEnterEl.addEventListener("mouseleave", handleMouseLeave);
 
     return () => {
-      scrollContainer.removeEventListener("mousedown", handleMouseDown);
-      scrollContainer.removeEventListener("mouseup", handleMouseUp);
-      scrollContainer.removeEventListener("dragstart", handleIsDragging);
-      scrollContainer.removeEventListener("dragend", handleDragEnd);
-      scrollContainer.removeEventListener("focus", handleReset);
-      scrollContainer.removeEventListener("blur", handleReset);
-      scrollContainer.removeEventListener("contextmenu", handleReset);
+      window.removeEventListener("mousedown", handleMouseDown);
+      window.removeEventListener("mouseup", handleMouseUp);
+      window.removeEventListener("dragstart", handleIsDragging);
+      window.removeEventListener("dragend", handleDragEnd);
+      window.removeEventListener("focus", handleReset);
+      window.removeEventListener("blur", handleReset);
+      window.removeEventListener("contextmenu", handleReset);
 
       dragEnterEl.removeEventListener("dragenter", handleDragEnter);
       dragEnterEl.removeEventListener("dragleave", handleDragLeave);
@@ -147,13 +146,13 @@ function EdgeScroll(props) {
     return () => {
       const { scrollContainer } = props;
 
-      scrollContainer.removeEventListener("mousedown", handleMouseDown);
-      scrollContainer.removeEventListener("mouseup", handleMouseUp);
-      scrollContainer.removeEventListener("dragstart", handleIsDragging);
-      scrollContainer.removeEventListener("dragend", handleDragEnd);
-      scrollContainer.removeEventListener("focus", handleReset);
-      scrollContainer.removeEventListener("blur", handleReset);
-      scrollContainer.removeEventListener("contextmenu", handleReset);
+      window.removeEventListener("mousedown", handleMouseDown);
+      window.removeEventListener("mouseup", handleMouseUp);
+      window.removeEventListener("dragstart", handleIsDragging);
+      window.removeEventListener("dragend", handleDragEnd);
+      window.removeEventListener("focus", handleReset);
+      window.removeEventListener("blur", handleReset);
+      window.removeEventListener("contextmenu", handleReset);
 
       dragEnterEl.removeEventListener("dragenter", handleDragEnter);
       dragEnterEl.removeEventListener("dragleave", handleDragLeave);
