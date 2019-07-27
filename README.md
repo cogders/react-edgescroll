@@ -6,6 +6,16 @@ This component is built to solve problems related with autoscroll when the item 
 
 ## Usage
 
+You can run the demo by
+
+```
+$ cd example
+$ npm intall
+$ npm start
+```
+
+in `example/src/App.js` you can see some use cases of how the component is used.
+
 ### Example: How to use
 
 ```jsx
