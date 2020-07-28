@@ -10,7 +10,7 @@ You can run the demo by
 
 ```
 $ cd example
-$ npm intall
+$ npm install
 $ npm start
 ```
 
