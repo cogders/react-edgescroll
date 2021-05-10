@@ -9,7 +9,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "array-move": "^2.1.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "react-dnd": "^7.6.0",
     "react-dnd-html5-backend": "^7.6.0",
     "react-router-dom": "^5.0.1",
